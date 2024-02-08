@@ -40,7 +40,7 @@ export const langMap = {
     tr: "Minimalizm Tutkunu",
   },
   heroDescription: {
-    en: "Hi, I’m Ömer. I’m a full-stack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s work together.",
+    en: "Hi, I’m Ömer. I’m a fullstack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s work together.",
     tr: "Merhaba, Ben Ömer. Fullstack web geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünleri oluşturabilen, harika kullanıcı deneyimleri sunabilen bir geliştirici arıyorsanız, birlikte çalışalım.",
   },
   profile: {
@@ -74,8 +74,8 @@ export const langMap = {
     tr: "Hakkımda",
   },
   aboutMeDesc1: {
-    en: "Hi, i'm Omer. As a full-stack web developer, I specialize in creating seamless digital experiences that fuse elegant design with powerful functionality. With expertise in both frontend and backend technologies, I thrive in architecting scalable applications and implementing robust solutions. ",
-    tr: "Merhaba, ben Ömer. Fullstack web geliştirici olarak, şık tasarımı güçlü işlevsellikle birleştiren sorunsuz dijital deneyimler oluşturmada uzmanım. Hem frontend hem de backend teknolojilerinde uzmanlığım ile ölçeklenebilir uygulamaları tasarlarken ve güçlü çözümler uygularken başarılıyım.",
+    en: " As a full-stack web developer, I specialize in creating seamless digital experiences that fuse elegant design with powerful functionality. With expertise in both frontend and backend technologies, I thrive in architecting scalable applications and implementing robust solutions. ",
+    tr: " Fullstack web geliştirici olarak, şık tasarımı güçlü işlevsellikle birleştiren sorunsuz dijital deneyimler oluşturmada uzmanım. Hem frontend hem de backend teknolojilerinde uzmanlığım ile ölçeklenebilir uygulamaları tasarlarken ve güçlü çözümler uygularken başarılıyım.",
   },
   aboutMeDesc2: {
     en: "From responsive user interfaces using HTML, CSS, and JavaScript to building resilient server-side applications with Node.js and Spring Boot, I am committed to staying at the forefront of technology trends to deliver innovative web experiences. With a collaborative approach and a focus on exceeding expectations, I am passionate about driving meaningful impact through every project.",

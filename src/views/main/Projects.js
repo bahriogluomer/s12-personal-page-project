@@ -2,11 +2,12 @@
 //Project.js icinde komponenti olustur ve burada datadan cekip maple
 
 import { langMap, languageStore } from "@/stores/languageStore";
-import { projectsStore } from "@/stores/projectsStore";
+import { ProjectsStore } from "@/stores/projectsStore";
 
 export default function Projects() {
-  const projects = projectsStore((state) => state.projects);
   const activeLang = languageStore((state) => state.activeLang);
+  const projects = ProjectsStore((state) => state.projectsArr);
+
   return (
     <div className="flex flex-col gap-4 w-full xl:mt-20 xl:mb-40 lg:mt-10 lg:mb-20 md:mt-5 md:mb-10 mt-2 mb-5">
       <h2 className="xl:text-[48px] lg:text-[40px] md:text-[32px] text-[24px]  font-semibold dark:text-[#AEBCCF] xl:mb-5 lg:mb-3 md:mb-2 mb-1">
