@@ -1,16 +1,3 @@
-import { create, useStore } from "zustand";
-import { languageStore } from "./languageStore";
-
-export const ProjectsStore = create((set) => ({
-  setProjects: () => {
-    const projectsArr = [];
-    const activeLang = languageStore((state) => state.activeLang);
-
-    set({ projectsArr: activeLang === "en" ? projects.en : projects.tr });
-    console.log(projectsArr);
-  },
-}));
-
 export const projects = {
   en: [
     {
