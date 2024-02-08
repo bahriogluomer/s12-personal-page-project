@@ -9,7 +9,6 @@ import ThemeModeSelector from "./ThemeModeSelector";
 
 //TODO
 // tema ve dil seceneklerini localStorage'a atmak
-// css optimize edilecek
 // daha responsive hale getirilecek
 
 export default function Main() {
