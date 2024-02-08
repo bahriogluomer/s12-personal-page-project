@@ -47,7 +47,7 @@ export default function Projects() {
                 </button>
               </a>
               <a href={project.viewSiteLink}>
-                <button className="font-medium flex underline dark:text-[#E1E1FF] text-[#3730A3] xl:text-base md:text-sm text-xs pt-0.1">
+                <button className="font-medium flex underline dark:text-[#E1E1FF] text-[#3730A3] xl:text-base md:text-sm text-xs pt-1">
                   {langMap.viewSite[activeLang]}
                 </button>
               </a>
