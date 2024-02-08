@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import NavBar from "./NavBar";
@@ -9,7 +8,6 @@ import Skills from "./Skills";
 import ThemeModeSelector from "./ThemeModeSelector";
 
 //TODO
-// projects objesini nasil olustururz? nasil mapleriz?
 // tema ve dil seceneklerini localStorage'a atmak
 // css optimize edilecek
 // daha responsive hale getirilecek

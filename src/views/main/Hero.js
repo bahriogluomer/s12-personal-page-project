@@ -5,7 +5,7 @@ import { langMap, languageStore } from "@/stores/languageStore";
 export default function Hero() {
   const activeLang = languageStore((state) => state.activeLang);
   return (
-    <div className="flex flex-col  w-full xl:mt-14 lg:mt-8 md:mt-5 mt-2">
+    <div className="flex flex-col  w-full xl:mt-14 lg:mt-8 md:mt-5 mt-2 flex-wrap">
       <div className="flex ">
         <div className="flex flex-col xl:gap-[50px] lg:gap-[20px] md:gap-[10px] gap-[5px] relative">
           <div className="flex items-center xl:gap-3 gap-1 ">

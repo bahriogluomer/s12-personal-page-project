@@ -27,7 +27,7 @@ export default function Projects() {
             <p className="text-[14px]  text-gray-800 dark:text-white">
               {project.description}
             </p>
-            <div className="flex flex-row items-center gap-2 xl:my-5 lg:my-3 md:my-2 my-1 xl:text-base md:text-sm text-xs">
+            <div className="flex flex-row items-center gap-2 xl:my-5 lg:my-3 md:my-2 my-1 xl:text-base md:text-sm text-xs flex-wrap">
               <div className="py-1 px-3 border border-[#3730A3] rounded text-[#3730A3] dark:text-[#8F88FF] dark:border-[#383838]">
                 react
               </div>
@@ -47,7 +47,7 @@ export default function Projects() {
                 </button>
               </a>
               <a href={project.viewSiteLink}>
-                <button className="font-medium flex underline dark:text-[#E1E1FF] text-[#3730A3] xl:text-base md:text-sm text-xs">
+                <button className="font-medium flex underline dark:text-[#E1E1FF] text-[#3730A3] xl:text-base md:text-sm text-xs pt-0.1">
                   {langMap.viewSite[activeLang]}
                 </button>
               </a>
