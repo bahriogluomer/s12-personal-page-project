@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 //TODO:
 //Project.js icinde komponenti olustur ve burada datadan cekip maple
 
