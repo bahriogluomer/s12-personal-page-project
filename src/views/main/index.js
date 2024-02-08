@@ -9,14 +9,10 @@ import Skills from "./Skills";
 import ThemeModeSelector from "./ThemeModeSelector";
 
 //TODO
-// darkMode tailwind  ile eklenecek
-// i18n next.js ile locale objesi ve en-tr datalari olusturulacak(video)
-// olusturulan datalar t() fonksiyonu ile eklenecek
 // projects objesini nasil olustururz? nasil mapleriz?
-// language switch nasil yapilacak context mi ?
 // tema ve dil seceneklerini localStorage'a atmak
 // css optimize edilecek
-// responsive hale getirilecek
+// daha responsive hale getirilecek
 
 export default function Main() {
   return (

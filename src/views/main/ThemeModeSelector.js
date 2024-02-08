@@ -16,7 +16,7 @@ export default function ThemeModeSelector({}) {
 
   return (
     <div className="container mx-auto dark:bg-[#252128]">
-      <div className="media_500 flex items-center justify-between xl:pt-[23px] lg:pt-[15px] md:pt-[10px] pt-[5px]">
+      <div className=" flex items-center justify-between xl:pt-[23px] lg:pt-[15px] md:pt-[10px] pt-[5px]">
         <div></div>
         <div className="flex items-center xl:gap-4 lg:gap-2 gap-1 xl:text-[15px] lg:text-[12px] text-[10px] letter-spacing: 0.1em font-semibold xl:mb-[24px] lg:mb-[16px]  mb-[10px]">
           <label className="relative inline-flex items-center  cursor-pointer text-[#777777] dark:text-[#D9D9D9] ">

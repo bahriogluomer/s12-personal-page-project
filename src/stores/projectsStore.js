@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const projectStore = create((set) => ({
+export const projectsStore = create((set) => ({
   projects: {
     en: [
       {
